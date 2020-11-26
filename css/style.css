@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Gagalin';
+    src: url(fonts/Gagalin-Regular.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Oswald, sans-serif;
+}
+
+h1,
+h2 {
+    margin: 20px 0;
+    font-family: Gagalin, sans-serif;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.progress {
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+article p {
+    text-align: justify;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
