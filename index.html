@@ -9,13 +9,13 @@
     <title>CV Anthony Hecquet</title>
 </head>
 <body>
-    <header>
+    <header id="top">
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="justify-content: space-between;">
         <a class="navbar-brand" href="index.html" style="color: #fff;"><strong>Accueil</strong></a>
-        <a class="navbar-brand" href="#" style="color: #fff;"><strong>Qui suis-je ?</strong></a>
-        <a class="navbar-brand" href="#" style="color: #fff;"><strong>Services</strong></a>
-        <a class="navbar-brand" href="#" style="color: #fff;"><strong>Réalisations</strong></a>
-        <a class="navbar-brand" href="#" style="color: #fff;"><strong>Contact</strong></a>
+        <a class="navbar-brand" href="#qui" style="color: #fff;"><strong>Qui suis-je ?</strong></a>
+        <a class="navbar-brand" href="#serv" style="color: #fff;"><strong>Services</strong></a>
+        <a class="navbar-brand" href="#real" style="color: #fff;"><strong>Réalisations</strong></a>
+        <a class="navbar-brand" href="#contact" style="color: #fff;"><strong>Contact</strong></a>
       </nav>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -70,7 +70,7 @@
         <article>
           <div class="row">
             <div class="col-lg-10 mb-4">
-              <h2 class="text-uppercase" style="text-align: center;"><i class="fas fa-user"></i><strong> Qui suis-je ?</strong></h2>
+              <h2 id="qui" class="text-uppercase" style="text-align: center;"><i class="fas fa-user"></i><strong> Qui suis-je ?</strong></h2>
               <p>Développeur web junior, je vous accompagne dans vos projets web et mobile :</p>
                 <ul>
                   <li>Création de site internet</li>
@@ -87,7 +87,7 @@
         </article>
         <hr>
         <article>
-           <h2 class="text-uppercase" style="text-align: center;"><i class="fas fa-cogs"></i><strong> Mes services</strong></h2>
+           <h2 id="serv" class="text-uppercase" style="text-align: center;"><i class="fas fa-cogs"></i><strong> Mes services</strong></h2>
           <div class="row">
             <div class="col-lg-4">
               <h5 style="text-align: center;"><strong>Gestion de projet</strong></h5>
@@ -105,7 +105,7 @@
         </article>
         <hr>
           <article>
-           <h2 class="text-uppercase" style="text-align: center;"><i class="fas fa-pencil-alt"></i><strong> Quelques réalisations</strong></h2>
+           <h2 id="real" class="text-uppercase" style="text-align: center;"><i class="fas fa-pencil-alt"></i><strong> Quelques réalisations</strong></h2>
           <div class="row">
             <div class="col-lg-4">
               <h5 style="text-align: center;"><strong>Théâtre Le Colisée à Roubaix</strong></h5>
@@ -121,39 +121,58 @@
             </div>
           </div>
         </article>
-          <div class="col-lg-8">
-            <h3>Formulaire de contact</h3>
-            <p>Pour m'envoyer un message, merci de remplir le formulaire ci-dessous.</p>
-        		<form class="col-lg-8" action="index.html" method="post">
-        			<div class="form-row">
-        				<div class="col-sm-6 mb-2">
-        					<input type="text" class="form-control" name="nom" placeholder="Votre nom" required>
-        				</div>
-        				<div class="col-sm-6 mb-2">
-        					<input type="text" class="form-control" name="prenom" placeholder="Votre prénom" required>
-        				</div>
-        			</div>
-        			<div class="form-row">
-        				<div class="col-sm-6 mb-2">
-        					<input type="email" name="email" class="form-control" placeholder="Votre email" required>
-        				</div>
-        				<div class="col-sm-6 mb-2">
-        					<input type="tel" name="telephone" class="form-control" placeholder="Votre numéro de téléphone" required>
-        				</div>
-        			</div>
-        			<div class="form-row mb-2">
-        				<textarea rows="3" cols="50" class="form-control" placeholder="Votre message"></textarea>
-        			</div>
-        			<div class="text-center">
-        				<button type="submit" class="btn btn-primary btn-block">Envoyer</button>
-        			</div>
-        		</form>
+        <hr>
+        <article>
+           <h2 id="contact" class="text-uppercase" style="text-align: center;"><i class="fas fa-envelope"></i><strong> Me Contacter</strong></h2>
+          <div class="row">
+            <div class="col-lg-3">
+              <h5 style="text-align: center;"><strong>Mes coordonnées</strong></h5>
+              <p><a href="mailto:hecquet.anthony.pro@gmail.com"><i class="fas fa-envelope"></i> hecquet.anthony.pro@gmail.com</a></p>
+              <p><a href="tel:+33627010395"><i class="fas fa-mobile-alt"></i> 06.27.01.03.95</a></p>
+              <p><a href="https://goo.gl/maps/2Ycf3fNS17QW1zf59" target="blank"><i class="fas fa-map-marker-alt"></i> 20 rue du parc 59110 La Madeleine</a></p>
+            </div>
+            <div class="col-lg-9">
+              <h3 style="text-align: center;">Formulaire de contact</h3>
+              <p>Pour obtenir un devis pour votre projet digital, merci de remplir le formulaire ci-dessous.</p>
+        		  <form class="col-lg-8" action="index.html" method="post">
+        			  <div class="form-row">
+        				  <div class="col-sm-6 mb-2">
+        					  <input type="text" class="form-control" name="nom" placeholder="Votre nom" required>
+        				  </div>
+        				  <div class="col-sm-6 mb-2">
+        					  <input type="text" class="form-control" name="prenom" placeholder="Votre prénom" required>
+        				  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-sm-6 mb-2">
+                    <input type="email" name="email" class="form-control" placeholder="Votre email" required>
+                  </div>
+                  <div class="col-sm-6 mb-2">
+                    <input type="tel" name="telephone" class="form-control" placeholder="Votre numéro de téléphone" required>
+                  </div>
+                </div>
+                <div class="form-row mb-2">
+                  <textarea rows="3" cols="50" class="form-control" placeholder="Votre message"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
+        </article>
+        <article>
+          <div class="row">
+            <div class="col-lg-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.707921300698!2d3.065456315623651!3d50.651115379503594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32a6e523aa0c5%3A0xa4b3b3397398b797!2s20%20Rue%20du%20Parc%2C%2059110%20La%20Madeleine!5e0!3m2!1sfr!2sfr!4v1607532253692!5m2!1sfr!2sfr" width="100%" height="350px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
-  	<footer class="bg-primary text-white p-3">
-      <p class="text-center">&copy; Réalisé par <a class="text-white" >Anthony Hecquet</a></p>
+  	<footer class="bg-dark text-white p-3">
+      <p class="text-center"><a href="#top">Accueil | </a><a href="#qui">Qui suis-je ? | </a><a href="#serv">Services | </a><a href="#real">Réalisations | </a><a href="#contact">Me contacter | </a><a href="mentions-legales.html">Mentions légales</a></p>
+      <p class="text-center">&copy; 2020 Réalisé par Anthony Hecquet - Tous droits réservés</a></p>
     </footer>
   <script src="js/jquery-3.5.1.slim.min.js"></script>
   <script src="js/bootstrap.min.js"></script>  
