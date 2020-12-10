@@ -5,6 +5,7 @@
 h1,
 h2 {
     margin: 20px 0;
+    padding-bottom: 30px;
 
 }
 
@@ -12,18 +13,18 @@ main {
     margin-top: 60px;
 }
 
-
-
 article p {
     text-align: justify;
 }
-
-
 
 article {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 20px;
+}
+
+form {
+    padding-top: 30px;
 }
 
 footer a {
