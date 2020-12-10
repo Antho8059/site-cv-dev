@@ -37,3 +37,17 @@ footer a:hover {
 
     color: #fff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}

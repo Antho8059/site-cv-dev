@@ -10,7 +10,7 @@
 </head>
 <body>
     <header id="top">
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="justify-content: space-between;">
+     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="justify-content: space-between;">
         <a class="navbar-brand" href="index.html" style="color: #fff;"><strong>Accueil</strong></a>
         <a class="navbar-brand" href="#qui" style="color: #fff;"><strong>Qui suis-je ?</strong></a>
         <a class="navbar-brand" href="#serv" style="color: #fff;"><strong>Services</strong></a>
@@ -30,7 +30,7 @@
                 <h5><strong>Anthony Hecquet, développeur junior web & mobile</strong></h5>
                 <p>Développement de sites web</p>
                 <div class="col-sm-3 mb-2">
-                  <button type="submit"class="btn btn-primary btn-block">Contactez-moi</button>
+                  <a href="#contact"><button type="submit" class="btn btn-primary btn-block">Contactez-moi</button></a>
                 </div>
               </div>
           </div>
@@ -40,7 +40,7 @@
                     <h5><strong>Développement d'applications mobiles</strong></h5>
                     <p>Je suis spécialisé en ergonomie, en design d'interface et en développement d'applications mobiles</p>
                       <div class="col-sm-3 mb-2">
-                        <button type="submit"class="btn btn-primary btn-block">Contactez-moi</button>
+                        <a href="#contact"><button type="submit" class="btn btn-primary btn-block">Contactez-moi</button></a>
                       </div>
                   </div>
               </div>
@@ -50,7 +50,7 @@
                     <h5><strong>Votre croissance sur le web</strong></h5>
                     <p>Un bon site web apporte de la visibilité à votre entreprise. Mon but est de faire en sorte que votre chiffre d'affaires progresse !</p>
                       <div class="col-sm-3 mb-2">
-                        <button type="submit"class="btn btn-primary btn-block">Contactez-moi</button>
+                        <a href="#contact"><button type="submit" class="btn btn-primary btn-block">Contactez-moi</button></a>
                       </div>
                   </div>
               </div>
@@ -81,7 +81,7 @@
               <p>J’aime penser en dehors du cadre, expérimenter, et prendre des risques pour imaginer les réponses les plus créatives et novatrices.</p>
               <p>Être indépendant me permet d’avoir une souplesse et une grande réactivité. Cela facilite également les échanges humains et une interaction conviviale, que j’estime indispensables.</p>
               <p>En quelques années, j’ai eu la chance de m’entourer d’un réseau de collaborateurs talentueux, dans le but de proposer des services complets en édition comme en digital. Je suis heureux de pouvoir combiner nos forces pour concevoir, rédiger, dessiner, intégrer ou imprimer un projet unique.</p>
-              <p>Découvrez mon travail et mon univers, et n’hésitez pas à <a href="#">prendre contact </a> moi.</p>
+              <p>Découvrez mon travail et mon univers, et n’hésitez pas à <a href="#contact">prendre contact </a> avec moi.</p>
             </div>
           </div>
         </article>
@@ -109,15 +109,15 @@
           <div class="row">
             <div class="col-lg-4">
               <h5 style="text-align: center;"><strong>Théâtre Le Colisée à Roubaix</strong></h5>
-              <a href="https://www.coliseeroubaix.com/" target="blank"><img src="./img/colisee-roubaix.png" alt="restaurant le colisee"></a>
+              <a href="https://www.coliseeroubaix.com/" target="blank"><img class="w-80 img-fluid" src="./img/colisee-roubaix.png" alt="restaurant le colisee"></a>
             </div>
             <div class="col-lg-4">
               <h5 style="text-align: center;"><strong>Restaurant Jomon Negishi</strong></h5>
-               <a href="https://www.jomon-negishi.com/" target="blank"><img src="./img/restaurant-negishi.png" alt="restaurant negishi"></a>
+               <a href="https://www.jomon-negishi.com/" target="blank"><img class="w-80 img-fluid" src="./img/restaurant-negishi.png" alt="restaurant negishi"></a>
             </div>
             <div class="col-lg-4">
               <h5 style="text-align: center;"><strong>Restaurant La Fossetta</strong></h5>
-               <a href="https://lafossetta.fr/" target="blank"><img src="./img/la-fossetta.png" alt="restaurant la fossetta"></a>
+               <a href="https://lafossetta.fr/" target="blank"><img class="w-80 img-fluid" src="./img/la-fossetta.png" alt="restaurant la fossetta"></a>
             </div>
           </div>
         </article>
@@ -125,16 +125,16 @@
         <article>
            <h2 id="contact" class="text-uppercase" style="text-align: center;"><i class="fas fa-envelope"></i><strong> Me Contacter</strong></h2>
           <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 my-auto">
               <h5 style="text-align: center;"><strong>Mes coordonnées</strong></h5>
               <p><a href="mailto:hecquet.anthony.pro@gmail.com"><i class="fas fa-envelope"></i> hecquet.anthony.pro@gmail.com</a></p>
               <p><a href="tel:+33627010395"><i class="fas fa-mobile-alt"></i> 06.27.01.03.95</a></p>
               <p><a href="https://goo.gl/maps/2Ycf3fNS17QW1zf59" target="blank"><i class="fas fa-map-marker-alt"></i> 20 rue du parc 59110 La Madeleine</a></p>
             </div>
             <div class="col-lg-9">
-              <h3 style="text-align: center;">Formulaire de contact</h3>
-              <p>Pour obtenir un devis pour votre projet digital, merci de remplir le formulaire ci-dessous.</p>
-        		  <form class="col-lg-8" action="index.html" method="post">
+              <h3 style="text-align: center;"><strong>Formulaire de contact</strong></h3>
+              <p style="text-align: center;">Pour obtenir un devis pour votre projet digital, merci de remplir le formulaire ci-dessous.</p>
+        		  <form class="col-lg-8 mx-auto" action="index.html" method="post">
         			  <div class="form-row">
         				  <div class="col-sm-6 mb-2">
         					  <input type="text" class="form-control" name="nom" placeholder="Votre nom" required>
@@ -152,7 +152,7 @@
                   </div>
                 </div>
                 <div class="form-row mb-2">
-                  <textarea rows="3" cols="50" class="form-control" placeholder="Votre message"></textarea>
+                  <textarea rows="4" cols="45" class="form-control" placeholder="Votre message"></textarea>
                 </div>
                 <div class="text-center">
                   <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
@@ -172,9 +172,9 @@
     </main>
   	<footer class="bg-dark text-white p-3">
       <p class="text-center"><a href="#top">Accueil | </a><a href="#qui">Qui suis-je ? | </a><a href="#serv">Services | </a><a href="#real">Réalisations | </a><a href="#contact">Me contacter | </a><a href="mentions-legales.html">Mentions légales</a></p>
-      <p class="text-center">&copy; 2020 Réalisé par Anthony Hecquet - Tous droits réservés</a></p>
+      <p class="text-center">&copy; 2020 Réalisé par Anthony Hecquet - Tous droits réservés</p>
     </footer>
   <script src="js/jquery-3.5.1.slim.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
